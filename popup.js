@@ -44,7 +44,7 @@ function onWindowLoad() {
     }
   });
 
-  document.getElementById('lesson').onkeypress = function(e){
+  document.getElementById('lesson').onkeyup = function(e){
     showUrls();
   }
 
